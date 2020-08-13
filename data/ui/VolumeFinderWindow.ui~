@@ -185,73 +185,6 @@ along with .  If not, see <http://www.gnu.org/licenses/>.
                 <property name="position">0</property>
               </packing>
             </child>
-            <child>
-              <object class="GtkLabel" id="label1">
-                <property name="visible">True</property>
-                <property name="can_focus">False</property>
-                <property name="xpad">30</property>
-                <property name="ypad">5</property>
-                <property name="label" translatable="yes">Your application has been created!
-
-To start changing this user interface, run 'quickly design', which will open Glade so you can edit the default windows and dialogs.
-
-To change the behavior and edit the python code, run 'quickly edit', which will bring up a text editor.</property>
-                <property name="wrap">True</property>
-              </object>
-              <packing>
-                <property name="expand">True</property>
-                <property name="fill">True</property>
-                <property name="position">1</property>
-              </packing>
-            </child>
-            <child>
-              <object class="GtkStatusbar" id="statusbar1">
-                <property name="visible">True</property>
-                <property name="can_focus">False</property>
-                <property name="spacing">2</property>
-                <child>
-                  <object class="GtkLabel" id="label2">
-                    <property name="visible">True</property>
-                    <property name="can_focus">False</property>
-                    <property name="xpad">5</property>
-                    <property name="ypad">5</property>
-                    <property name="label" translatable="yes">Status Area</property>
-                    <property name="xalign">0</property>
-                  </object>
-                  <packing>
-                    <property name="expand">True</property>
-                    <property name="fill">True</property>
-                    <property name="position">0</property>
-                  </packing>
-                </child>
-              </object>
-              <packing>
-                <property name="expand">False</property>
-                <property name="fill">True</property>
-                <property name="pack_type">end</property>
-                <property name="position">2</property>
-              </packing>
-            </child>
-            <child>
-              <object class="GtkLabel" id="titlewelcometext">
-                <property name="visible">True</property>
-                <property name="can_focus">False</property>
-                <property name="halign">start</property>
-                <property name="margin_left">15</property>
-                <property name="margin_top">5</property>
-                <property name="ypad">5</property>
-                <property name="label" translatable="yes">Welcome to Volume Finder for Linux!</property>
-                <property name="justify">center</property>
-                <attributes>
-                  <attribute name="underline" value="True"/>
-                </attributes>
-              </object>
-              <packing>
-                <property name="expand">True</property>
-                <property name="fill">True</property>
-                <property name="position">3</property>
-              </packing>
-            </child>
           </object>
           <packing>
             <property name="expand">False</property>
@@ -399,10 +332,42 @@ To change the behavior and edit the python code, run 'quickly edit', which will 
           </packing>
         </child>
         <child>
-          <placeholder/>
+          <object class="GtkLabel" id="titlewelcometext">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="halign">start</property>
+            <property name="margin_left">15</property>
+            <property name="margin_top">10</property>
+            <property name="label" translatable="yes">Welcome to Volume Finder for Linux!</property>
+            <property name="justify">center</property>
+            <attributes>
+              <attribute name="underline" value="True"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="expand">True</property>
+            <property name="fill">True</property>
+            <property name="position">2</property>
+          </packing>
         </child>
         <child>
-          <placeholder/>
+          <object class="GtkLabel" id="label3">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="xpad">30</property>
+            <property name="ypad">5</property>
+            <property name="label" translatable="yes">Your application has been created!
+
+To start changing this user interface, run 'quickly design', which will open Glade so you can edit the default windows and dialogs.
+
+To change the behavior and edit the python code, run 'quickly edit', which will bring up a text editor.</property>
+            <property name="wrap">True</property>
+          </object>
+          <packing>
+            <property name="expand">True</property>
+            <property name="fill">True</property>
+            <property name="position">3</property>
+          </packing>
         </child>
         <child>
           <object class="GtkImage" id="image1">
@@ -419,7 +384,32 @@ To change the behavior and edit the python code, run 'quickly edit', which will 
           </packing>
         </child>
         <child>
-          <placeholder/>
+          <object class="GtkStatusbar" id="statusbar1">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="spacing">2</property>
+            <child>
+              <object class="GtkLabel" id="label2">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="xpad">5</property>
+                <property name="ypad">5</property>
+                <property name="label" translatable="yes">Status Area</property>
+                <property name="xalign">0</property>
+              </object>
+              <packing>
+                <property name="expand">True</property>
+                <property name="fill">True</property>
+                <property name="position">0</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="pack_type">end</property>
+            <property name="position">5</property>
+          </packing>
         </child>
       </object>
     </child>
