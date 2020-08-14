@@ -136,7 +136,7 @@ class InstallAndUpdateDataDirectory(DistUtilsExtra.auto.install_auto):
 
 DistUtilsExtra.auto.setup(
     name='volume-finder',
-    version='0.1',
+    version='0.0.1',
     license='Apache-2.0',
     #author='Your Name',
     #author_email='email@ubuntu.com',
