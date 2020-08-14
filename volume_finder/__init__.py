@@ -6,7 +6,7 @@
 import optparse
 
 from locale import gettext as _
-#gi.require_version('Gtk', '3.2')
+
 from gi.repository import Gtk # pylint: disable=E0611
 
 from volume_finder import VolumeFinderWindow
@@ -28,6 +28,6 @@ def main():
     parse_options()
 
     # Run the application.    
-    w = VolumeFinderWindow.VolumeFinderWindow()
-    w.show()
+    window = VolumeFinderWindow.VolumeFinderWindow()
+    window.show()
     Gtk.main()
