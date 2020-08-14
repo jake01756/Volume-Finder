@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Generated with glade 3.22.1 -->
 <interface>
-  <requires lib="gtk+" version="3.20"/>
+  <requires lib="gtk+" version="3.0"/>
   <requires lib="about_volume_finder_dialog" version="1.0"/>
   <object class="AboutVolumeFinderDialog" id="about_volume_finder_dialog">
     <property name="can_focus">False</property>

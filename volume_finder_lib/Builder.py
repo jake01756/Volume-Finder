@@ -77,7 +77,7 @@ class Builder(Gtk.Builder):
             name = ele_widget.attrib['id']
             widget = self.get_object(name)
 
-            # populate indexes - a dictionary of widgets
+            #populate indexes - a dictionary of widgets
             self.widgets[name] = widget
 
             # populate a reversed dictionary
