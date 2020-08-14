@@ -1,7 +1,7 @@
-#Volume Finder for Linux
+# Volume Finder for Linux
 Welcome to Volume Finder for Linux.
 
-##Requirements
+## Requirements
 - A linux based computer.
 
 
