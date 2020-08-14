@@ -6,7 +6,6 @@
   <object class="AboutVolumeFinderDialog" id="about_volume_finder_dialog">
     <property name="can_focus">False</property>
     <property name="border_width">5</property>
-    <property name="modal">True</property>
     <property name="icon">../media/volume-finder.svg</property>
     <property name="type_hint">normal</property>
     <property name="program_name">Volume Finder</property>

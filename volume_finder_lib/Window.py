@@ -69,6 +69,12 @@ class Window(Gtk.Window):
 
     def on_mnu_contents_activate(self, widget, data=None):
         show_uri(self, "ghelp:%s" % get_help_uri())
+    
+    def on_mnu_welcome_activate(self, widget, data=None):
+         if self.WelcomeDialog is not None:
+            welcome = self.WelcomeDialog() # pylint: disable=E1102
+            response = welcome.run()
+            welcome.destroy()
 
     def on_mnu_about_activate(self, widget, data=None):
         """Display the about box for volume-finder."""

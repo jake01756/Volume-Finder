@@ -162,6 +162,7 @@
                         <property name="tooltip_text" translatable="yes">View the Welcome Wizard.</property>
                         <property name="image">image3</property>
                         <property name="use_stock">False</property>
+                        <signal name="activate" handler="on_mnu_welcome" object="volume_finder_window" swapped="no"/>
                       </object>
                     </child>
                     <child>

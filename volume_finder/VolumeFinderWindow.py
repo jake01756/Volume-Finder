@@ -12,6 +12,7 @@ logger = logging.getLogger('volume_finder')
 from volume_finder_lib import Window
 from volume_finder.AboutVolumeFinderDialog import AboutVolumeFinderDialog
 from volume_finder.PreferencesVolumeFinderDialog import PreferencesVolumeFinderDialog
+from volume_finder.WelcomeDialog import WelcomeDialog
 
 # See volume_finder_lib.Window.py for more details about how this class works
 class VolumeFinderWindow(Window):
@@ -23,6 +24,11 @@ class VolumeFinderWindow(Window):
 
         self.AboutDialog = AboutVolumeFinderDialog
         self.PreferencesDialog = PreferencesVolumeFinderDialog
+        self.WelcomeDialog = WelcomeDialog
 
         # Code for other initialization actions should be added here.
-
+    
+    #def on_mnu_welcome(self, widget, data=None):
+        #dialog = WelcomeDialog()
+        #dialog.show()
+        #Gtk.main()
