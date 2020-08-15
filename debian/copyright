@@ -5,4 +5,5 @@ Source: UNKNOWN
 
 Files: *
 Copyright: (C) 2020 Jake Thomas jake01756@gmail.com
-License: UNKNOWN
+Copyright: (C) 2020 Jake Thomas jake01756@gmail.com</property><property name="can_focus">False</property>
+License: Apache-2.0
