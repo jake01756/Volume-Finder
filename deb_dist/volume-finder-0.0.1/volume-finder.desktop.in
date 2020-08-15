@@ -1,0 +1,8 @@
+[Desktop Entry]
+_Name=Volume Finder
+_Comment=VolumeFinder application
+Categories=GNOME;Utility;
+Exec=volume-finder
+Icon=volume-finder
+Terminal=false
+Type=Application

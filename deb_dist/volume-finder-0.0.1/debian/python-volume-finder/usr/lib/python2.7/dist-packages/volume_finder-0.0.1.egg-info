@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: volume-finder
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: Apache-2.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires: gi.repository.GObject
+Requires: gi.repository.Gio
+Requires: gi.repository.Gtk
+Provides: volume_finder
+Provides: volume_finder_lib

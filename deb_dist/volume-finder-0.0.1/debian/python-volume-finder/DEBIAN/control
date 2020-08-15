@@ -1,0 +1,10 @@
+Package: python-volume-finder
+Source: volume-finder
+Version: 0.0.1-1
+Architecture: all
+Maintainer: unknown <unknown@unknown>
+Installed-Size: 128
+Depends: dconf-gsettings-backend | gsettings-backend, python:any (<< 2.8), python:any (>= 2.7~)
+Section: python
+Priority: optional
+Description: UNKNOWN

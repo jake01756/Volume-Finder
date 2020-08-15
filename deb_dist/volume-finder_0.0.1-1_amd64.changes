@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Sat, 15 Aug 2020 10:15:24 -0400
+Source: volume-finder
+Binary: python-volume-finder
+Architecture: all
+Version: 0.0.1-1
+Distribution: unstable
+Urgency: low
+Maintainer: unknown <unknown@unknown>
+Changed-By: unknown <unknown@unknown>
+Description:
+ python-volume-finder - UNKNOWN
+Changes:
+ volume-finder (0.0.1-1) unstable; urgency=low
+ .
+   * source package automatically created by stdeb 0.8.5
+Checksums-Sha1:
+ 94bfc2f117639b14a35e8866a8bfd6601804d723 26332 python-volume-finder_0.0.1-1_all.deb
+ 8c0399b2547146adac6f16be64f140adb8babecc 5293 volume-finder_0.0.1-1_amd64.buildinfo
+Checksums-Sha256:
+ a1a1e5c922a31c2dbbfa511ddee5107ff30ce9cccfe11969877927946e47d39e 26332 python-volume-finder_0.0.1-1_all.deb
+ b8975dc38130c12bd298f325253bd52636585d3e8de4ee4bb7d9c36b4d4b106d 5293 volume-finder_0.0.1-1_amd64.buildinfo
+Files:
+ 7c94ab0b32b02ec8f5d18d55c1e0811a 26332 python optional python-volume-finder_0.0.1-1_all.deb
+ f6bd461f468c99495538e879dfeea038 5293 python optional volume-finder_0.0.1-1_amd64.buildinfo

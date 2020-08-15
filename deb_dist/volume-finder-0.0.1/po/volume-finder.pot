@@ -1,0 +1,135 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-15 10:15-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../volume-finder.desktop.in.h:1 ../data/ui/VolumeFinderWindow.ui.h:1
+msgid "Volume Finder"
+msgstr ""
+
+#: ../volume-finder.desktop.in.h:2
+msgid "VolumeFinder application"
+msgstr ""
+
+#: ../data/ui/WelcomeDialog.ui.h:1
+msgid ""
+"Welcome to the tour of Volume Finder!\n"
+"\n"
+"Introduction page"
+msgstr ""
+
+#: ../data/ui/WelcomeDialog.ui.h:4
+msgid "Content page"
+msgstr ""
+
+#: ../data/ui/WelcomeDialog.ui.h:5
+msgid "Confirmation page"
+msgstr ""
+
+#: ../data/ui/WelcomeDialog.ui.h:6
+msgid "Question"
+msgstr ""
+
+#: ../data/ui/WelcomeDialog.ui.h:7
+msgid ""
+"Would you like to take a tour of Volume Finder and configure initial "
+"settings?\n"
+"\n"
+"You can do this at any time by choosing the \"Welcome Wizard\" option under "
+"the Help menu bar."
+msgstr ""
+
+#: ../volume_finder/__init__.py:32
+msgid "Show debug messages (-vv debugs volume_finder_lib also)"
+msgstr ""
+
+#. Code for other initialization actions should be added here.
+#: ../data/ui/AboutVolumeFinderDialog.ui.h:1
+msgid ""
+"# Copyright (C) 2020 Jake Thomas jake01756@gmail.com\n"
+"# Licensed under the Apache License, Version 2.0 (the \"License\");\n"
+"# you may not use this file except in compliance with the License.\n"
+"# You may obtain a copy of the License at\n"
+"# \n"
+"#    http://www.apache.org/licenses/LICENSE-2.0\n"
+"# \n"
+"# Unless required by applicable law or agreed to in writing, software\n"
+"# distributed under the License is distributed on an \"AS IS\" BASIS,\n"
+"# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n"
+"# See the License for the specific language governing permissions and\n"
+"# limitations under the License.\n"
+msgstr ""
+
+#: ../data/ui/AboutVolumeFinderDialog.ui.h:14
+msgid "Copyright (C) 2020 Jake Thomas jake01756@gmail.com"
+msgstr ""
+
+#: ../data/ui/VolumeFinderWindow.ui.h:2
+msgid "_File"
+msgstr ""
+
+#: ../data/ui/VolumeFinderWindow.ui.h:3
+msgid "_Edit"
+msgstr ""
+
+#: ../data/ui/VolumeFinderWindow.ui.h:4
+msgid "_Help"
+msgstr ""
+
+#: ../data/ui/VolumeFinderWindow.ui.h:5
+msgid "Contents"
+msgstr ""
+
+#: ../data/ui/VolumeFinderWindow.ui.h:6
+msgid "Welcome Wizard"
+msgstr ""
+
+#: ../data/ui/VolumeFinderWindow.ui.h:7
+msgid "View the Welcome Wizard."
+msgstr ""
+
+#: ../data/ui/VolumeFinderWindow.ui.h:8
+msgid ""
+"Welcome to Volume Finder.\n"
+"\n"
+"Volume Finder is currently under development. Some things may not work as "
+"intended, other things will work flawlessly.\n"
+"\n"
+"To change the behavior and edit the python code, run 'quickly edit', which "
+"will bring up a text editor."
+msgstr ""
+
+#: ../data/ui/VolumeFinderWindow.ui.h:13
+msgid "Status Area"
+msgstr ""
+
+#. Code for other initialization actions should be added here.
+#. def on_mnu_welcome(self, widget, data=None):
+#. dialog = WelcomeDialog()
+#. dialog.show()
+#. Gtk.main()
+#: ../data/ui/PreferencesVolumeFinderDialog.ui.h:1
+msgid "Volume Finder Preferences"
+msgstr ""
+
+#: ../data/ui/PreferencesVolumeFinderDialog.ui.h:2
+msgid "Volume Finder Settings"
+msgstr ""
+
+#: ../data/ui/PreferencesVolumeFinderDialog.ui.h:3
+msgid "_Example entry:"
+msgstr ""

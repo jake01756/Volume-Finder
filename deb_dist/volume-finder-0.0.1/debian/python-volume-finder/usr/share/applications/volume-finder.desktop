@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Volume Finder
+Comment=VolumeFinder application
+Categories=GNOME;Utility;
+Exec=/usr/bin/volume-finder
+Icon=/usr/share/volume-finder/media/volume-finder.svg
+Terminal=false
+Type=Application

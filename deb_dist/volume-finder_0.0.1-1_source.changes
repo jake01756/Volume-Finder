@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Sat, 15 Aug 2020 10:15:24 -0400
+Source: volume-finder
+Architecture: source
+Version: 0.0.1-1
+Distribution: unstable
+Urgency: low
+Maintainer: unknown <unknown@unknown>
+Changed-By: unknown <unknown@unknown>
+Changes:
+ volume-finder (0.0.1-1) unstable; urgency=low
+ .
+   * source package automatically created by stdeb 0.8.5
+Checksums-Sha1:
+ f8e679a840b4c334cf9fee6af2ca8e402691c090 864 volume-finder_0.0.1-1.dsc
+ 0cdbdedff685b6507c9fcecc9261752098e814d9 38900 volume-finder_0.0.1.orig.tar.gz
+ fc6e5de403091fd1a9c2b7f0065f74b713a6005e 1020 volume-finder_0.0.1-1.debian.tar.xz
+ e9a7200cea0766c33ce582d458c908672b5ca909 5257 volume-finder_0.0.1-1_source.buildinfo
+Checksums-Sha256:
+ ee38c8733af9390494b16aa9880a9fdb08a08f54921c284e465166ff6f3a6e8a 864 volume-finder_0.0.1-1.dsc
+ a9183e22bfee591c6416e5103224f167a88762d14be5a542521facfcef2d8ec0 38900 volume-finder_0.0.1.orig.tar.gz
+ c82131662208aa18d63d1c27e83492271d7499757fe17db78eb06e7bf5211e1c 1020 volume-finder_0.0.1-1.debian.tar.xz
+ 96c950416fe0990167f3bba3b3ffab405d1bd27be3838f7bf82a7a8d305cb22e 5257 volume-finder_0.0.1-1_source.buildinfo
+Files:
+ 1b64e694b64a0b764120b47bac872053 864 python optional volume-finder_0.0.1-1.dsc
+ 2d67247cf73b746155ec1a528d512b24 38900 python optional volume-finder_0.0.1.orig.tar.gz
+ 82b8dbf12e1ee9a9abe56cb4c4947b67 1020 python optional volume-finder_0.0.1-1.debian.tar.xz
+ 34f6b81490cc89faa66e8e591ee587d4 5257 python optional volume-finder_0.0.1-1_source.buildinfo
