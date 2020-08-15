@@ -248,6 +248,20 @@ To change the behavior and edit the python code, run 'quickly edit', which will 
             <property name="position">3</property>
           </packing>
         </child>
+        <child>
+          <object class="GtkButton" id="button1">
+            <property name="label" translatable="yes">Test</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="focus_on_click">False</property>
+            <property name="receives_default">True</property>
+          </object>
+          <packing>
+            <property name="expand">True</property>
+            <property name="fill">True</property>
+            <property name="position">4</property>
+          </packing>
+        </child>
       </object>
     </child>
   </object>

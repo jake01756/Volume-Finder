@@ -50,7 +50,7 @@ class WelcomeDialog(Gtk.Dialog):
 
     def on_btn_ok_clicked(self, widget, data=None):
         """The user has elected to save the changes.
-
+        
         Called before the dialog returns Gtk.ResponseType.OK from run().
         """
         pass

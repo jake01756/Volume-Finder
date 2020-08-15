@@ -18,6 +18,7 @@
 
 from gi.repository import Gio, Gtk # pylint: disable=E0611
 import logging
+#import WelcomeDialog
 logger = logging.getLogger('volume_finder_lib')
 
 from . helpers import get_builder, show_uri, get_help_uri
@@ -81,11 +82,14 @@ class Window(Gtk.Window):
     def on_mnu_contents_activate(self, widget, data=None):
         show_uri(self, "ghelp:%s" % get_help_uri())
     
-    def on_mnu_welcome_activate(self, widget, data=None):
-         if self.WelcomeDialog is not None:
-            welcome = self.WelcomeDialog() # pylint: disable=E1102
-            response = welcome.run()
-            welcome.destroy()
+    #def on_mnu_welcome_activate(self, widget, data=None):
+         #dialog = WelcomeDialog.WelcomeDialog()
+         #result = dialog.run()
+         #dialog.hide()
+         #if self.WelcomeDialog is not None:
+            #welcome = self.WelcomeDialog() # pylint: disable=E1102
+            #response = welcome.run()
+            #welcome.destroy()
 
     def on_mnu_about_activate(self, widget, data=None):
         """Display the about box for volume-finder."""
