@@ -186,7 +186,7 @@
           </packing>
         </child>
         <child>
-          <object class="GtkLabel" id="label1">
+          <object class="GtkLabel" id="label0">
             <property name="visible">True</property>
             <property name="can_focus">False</property>
             <property name="xpad">30</property>
@@ -195,7 +195,7 @@
 
 Volume Finder is currently under development. Some things may not work as intended, other things will work flawlessly.
 
-To change the behavior and edit the python code, run 'quickly edit', which will bring up a text editor.</property>
+I want to:</property>
             <property name="wrap">True</property>
           </object>
           <packing>
@@ -205,18 +205,87 @@ To change the behavior and edit the python code, run 'quickly edit', which will 
           </packing>
         </child>
         <child>
-          <object class="GtkImage" id="image1">
+          <object class="GtkGrid" id="functionsgrid1">
             <property name="visible">True</property>
             <property name="can_focus">False</property>
-            <property name="xpad">5</property>
-            <property name="ypad">5</property>
-            <property name="pixel_size">256</property>
-            <property name="icon_name">accessories-calculator</property>
+            <property name="margin_left">10</property>
+            <property name="margin_right">10</property>
+            <property name="row_spacing">5</property>
+            <property name="column_spacing">5</property>
+            <property name="column_homogeneous">True</property>
+            <child>
+              <object class="GtkButton" id="button1">
+                <property name="label" translatable="yes">button</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+              </object>
+              <packing>
+                <property name="left_attach">1</property>
+                <property name="top_attach">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="button2">
+                <property name="label" translatable="yes">button</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+              </object>
+              <packing>
+                <property name="left_attach">1</property>
+                <property name="top_attach">1</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="button3">
+                <property name="label" translatable="yes">button</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+              </object>
+              <packing>
+                <property name="left_attach">1</property>
+                <property name="top_attach">2</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="label1">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">Action 1:</property>
+              </object>
+              <packing>
+                <property name="left_attach">0</property>
+                <property name="top_attach">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="label2">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">Action 2:</property>
+              </object>
+              <packing>
+                <property name="left_attach">0</property>
+                <property name="top_attach">1</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="label3">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">Action 3:</property>
+              </object>
+              <packing>
+                <property name="left_attach">0</property>
+                <property name="top_attach">2</property>
+              </packing>
+            </child>
           </object>
           <packing>
             <property name="expand">True</property>
             <property name="fill">True</property>
-            <property name="padding">15</property>
             <property name="position">2</property>
           </packing>
         </child>
@@ -226,7 +295,7 @@ To change the behavior and edit the python code, run 'quickly edit', which will 
             <property name="can_focus">False</property>
             <property name="spacing">2</property>
             <child>
-              <object class="GtkLabel" id="label2">
+              <object class="GtkLabel" id="label10">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
                 <property name="xpad">5</property>
@@ -249,16 +318,18 @@ To change the behavior and edit the python code, run 'quickly edit', which will 
           </packing>
         </child>
         <child>
-          <object class="GtkButton" id="button1">
-            <property name="label" translatable="yes">Test</property>
+          <object class="GtkImage" id="image1">
             <property name="visible">True</property>
-            <property name="can_focus">True</property>
-            <property name="focus_on_click">False</property>
-            <property name="receives_default">True</property>
+            <property name="can_focus">False</property>
+            <property name="xpad">5</property>
+            <property name="ypad">5</property>
+            <property name="pixel_size">256</property>
+            <property name="icon_name">accessories-calculator</property>
           </object>
           <packing>
             <property name="expand">True</property>
             <property name="fill">True</property>
+            <property name="padding">15</property>
             <property name="position">4</property>
           </packing>
         </child>

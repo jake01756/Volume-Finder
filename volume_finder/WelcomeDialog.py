@@ -13,7 +13,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 ### END LICENSE
-
+import gi
+gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk # pylint: disable=E0611
 
 from volume_finder_lib.helpers import get_builder

@@ -13,6 +13,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 ### END LICENSE
+import gi
+
+gi.require_version("Gtk", "3.0")
 
 import optparse
 
